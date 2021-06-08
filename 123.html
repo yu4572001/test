@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>作业</title>
+<script>
+function show(){
+var a,b,c
+a=document.getElementById('s1').value;  
+b=document.getElementById('s2').value;  
+c=Number(a)+Number(b);
+document.getElementById('s3').value=c;
+}
+</script>
+</head>
+<body>
+<div align="center">
+<h2>求和</h2>
+输入加数<input type="text" id="s1"><p>
+输入被加数<input type="text" id="s2"><p>
+<input type="button" value="求和" onclick="show()"><p>
+结果<input type="text" id="s3"><p>
+</div>
+</body>
+</html>
